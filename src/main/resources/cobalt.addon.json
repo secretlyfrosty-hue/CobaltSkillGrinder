@@ -1,7 +1,8 @@
 {
   "id": "${mod_id}",
-  "name": "Example Addon",
-  "version": "1.0.0",
-  "entrypoints": ["${base_group}.ExampleAddon"],
+  "name": "Cobalt Skill Grinder",
+  "version": "${mod_version}",
+  "description": "Advanced QoL macros for Foraging, Mining, Combat, Fishing & Dungeons with human-like pathfinding",
+  "entrypoints": ["${base_group}.SkillGrinderAddon"],
   "mixins": ["${mod_id}.mixins.json"]
 }
